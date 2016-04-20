@@ -1,4 +1,4 @@
-mini-ofbiz
+﻿mini-ofbiz
 ==========
 
 A Mini Framework base on Ofbiz.
@@ -102,7 +102,7 @@ example组件目录：
          [echo] Component successfully created in folder D:\git\mini-ofbiz/hot-deploy/helloworld.
          [echo]               Restart OFBiz and then visit the URL: http://localhost:8080/helloworld
 说明hello world组件创建成功了，存放于hot-deploy\helloworld。
-3. 载入demo数据，启动服务后，访问localhost:8080/helloworld。由于创建的组件引用了被剔除组件的资源，现在页面会报错，需要手动修改一下。
+3. 载入demo数据，在component-load.xml做好配置,启动服务后，访问localhost:8080/helloworld。由于创建的组件引用了被剔除组件的资源，现在页面会报错，需要手动修改一下。
 4. 修改hot-deploy\helloworld\widget\CommonScreens.xml，第20行，为：
 
          <decorator-section-include name="body"/>
