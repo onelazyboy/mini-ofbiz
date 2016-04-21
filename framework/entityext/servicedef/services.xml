@@ -211,11 +211,11 @@ under the License.
             location="org.ofbiz.entityext.synchronization.EntitySyncServices" invoke="updateOfflineEntitySync" auth="true">
         <description>Not implemented.</description>
     </service>
-
-    <service name="cleanSyncRemoveInfo" engine="java"
+	<!-- PYJ update -->
+    <!-- <service name="cleanSyncRemoveInfo" engine="java"
             location="org.ofbiz.entityext.synchronization.EntitySyncServices" invoke="cleanSyncRemoveInfo" auth="true" transaction-timeout="600">
         <description>Clean EntitySyncRemove Info - Generally should be run asynchronously after each sync run, or periodically run on a schedule</description>
-    </service>
+    </service> -->
     <service name="resetEntitySyncStatusToNotStarted" engine="simple"
             location="component://entityext/script/org/ofbiz/entityext/synchronization/EntitySyncServices.xml" invoke="resetEntitySyncStatusToNotStarted" auth="true" transaction-timeout="600">
         <description>Generally run manually to reset the status of an EntitySync when it has "crashed". Update a EntitySync, set the Status to ESR_NOT_STARTED, but ONLY if running (ie in ESR_RUNNING)</description>

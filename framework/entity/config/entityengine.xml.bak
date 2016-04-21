@@ -640,7 +640,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="oracle.jdbc.driver.OracleDriver"
-                jdbc-uri="jdbc:oracle:thin:@127.0.0.1:1521:orcl"
+                jdbc-uri="jdbc:datadirect:oracle://127.0.0.1:1521/orcl"
                 jdbc-username="base"
                 jdbc-password="hhh"
                 pool-minsize="2"
