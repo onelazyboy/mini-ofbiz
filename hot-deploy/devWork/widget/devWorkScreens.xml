@@ -8,9 +8,8 @@
                 <set field="headerItem" value="main"/><!-- this highlights the selected menu-item with name "main" -->
             </actions>
             <widgets>
-                <decorator-screen name="devAppCommonDecorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-screen name="devWorkCommonDecorator" location="${parameters.mainDecoratorLocation}">
                     <decorator-section name="body">
-					 <label text="Hello world!"/>
                     </decorator-section>
                 </decorator-screen>
             </widgets>

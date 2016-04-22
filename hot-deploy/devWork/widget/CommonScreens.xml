@@ -5,16 +5,16 @@
     <screen name="main-decorator">
         <section>
             <actions>
-                <property-map resource="devAppUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="devWorkUiLabels" map-name="uiLabelMap" global="true"/>
                 <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
 
-                <set field="layoutSettings.companyName" from-field="uiLabelMap.devAppCompanyName" global="true"/>
-                <set field="layoutSettings.companySubtitle" from-field="uiLabelMap.devAppCompanySubtitle" global="true"/>
+                <set field="layoutSettings.companyName" from-field="uiLabelMap.devWorkCompanyName" global="true"/>
+                <set field="layoutSettings.companySubtitle" from-field="uiLabelMap.devWorkCompanySubtitle" global="true"/>
 
-                <set field="activeApp" value="devApp" global="true"/>
+                <set field="activeApp" value="devWork" global="true"/>
                 <set field="applicationMenuName" value="MainAppBar" global="true"/>
-                <set field="applicationMenuLocation" value="component://devApp/widget/devAppMenus.xml" global="true"/>
-                <set field="applicationTitle" value="${uiLabelMap.devAppApplication}" global="true"/>
+                <set field="applicationMenuLocation" value="component://devWork/widget/devWorkMenus.xml" global="true"/>
+                <set field="applicationTitle" value="${uiLabelMap.devWorkApplication}" global="true"/>
             </actions>
             <widgets>
                 <include-screen name="GlobalDecorator" location="component://common/widget/CommonScreens.xml"/>
@@ -22,7 +22,7 @@
         </section>
     </screen>
 
-    <screen name="devAppCommonDecorator">
+    <screen name="devWorkCommonDecorator">
         <section>
             <actions>
             </actions>
@@ -31,13 +31,13 @@
                     <decorator-section name="body">
                         <section>
                             <condition>
-                                <if-has-permission permission="devApp" action="_VIEW"/>
+                                <if-has-permission permission="devWork" action="_VIEW"/>
                             </condition>
                             <widgets>
                                 <decorator-section-include name="body"/>
                             </widgets>
                             <fail-widgets>
-                                <label style="h3">${uiLabelMap.devAppViewPermissionError}</label>
+                                <label style="h3">${uiLabelMap.devWorkViewPermissionError}</label>
                             </fail-widgets>
                         </section>
                     </decorator-section>

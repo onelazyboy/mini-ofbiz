@@ -23,12 +23,12 @@
     xsi:schemaLocation="http://docbook.org/ns/docbook ../../../applications/content/dtd/docbook.xsd"
     xmlns="http://docbook.org/ns/docbook">
     
-    <title><anchor xml:id="devApp"/>The devApp Component</title>
+    <title><anchor xml:id="devWork"/>The devWork Component</title>
     <section>
         <title>Introduction</title>
         <para>
         </para>
     </section>
-        <xi:include href="../data/helpdata/HELP_devApp.xml" />
+        <xi:include href="../data/helpdata/HELP_devWork.xml" />
     
 </chapter>

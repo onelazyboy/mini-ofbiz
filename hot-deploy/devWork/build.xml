@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="OFBiz - devApp Component" default="jar" basedir=".">
+<project name="OFBiz - devWork Component" default="jar" basedir=".">
     <import file="../../common.xml"/>
 
     <!-- ================================================================== -->
@@ -8,9 +8,9 @@
     <!-- ================================================================== -->
 
     <property environment="env"/>
-    <property name="desc" value="devApp Component"/>
-    <property name="name" value="devApp"/>
-    <property name="component-name" value="devApp"/>
+    <property name="desc" value="devWork Component"/>
+    <property name="name" value="devWork"/>
+    <property name="component-name" value="devWork"/>
     <property name="ofbiz.home.dir" value="../.."/>
     <property name="src.dir" value="src"/>
     <property name="dtd.dir" value="dtd"/>
