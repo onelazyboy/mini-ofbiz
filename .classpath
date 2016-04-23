@@ -2,6 +2,28 @@
 <classpath>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="framework/base/build/gen-src/javacc"/>
+	<classpathentry kind="lib" path="framework/base/cert"/>
+	<classpathentry kind="lib" path="framework/base/config"/>
+	<classpathentry kind="lib" path="framework/base/dtd"/>
+	<classpathentry excluding="org/ofbiz/base/config/CoberturaInstrumenter.java" kind="src" path="framework/base/src"/>
+	<classpathentry kind="src" path="framework/webtools/src"/>
+	<classpathentry kind="src" path="framework/widget/src"/>
+	<classpathentry kind="src" path="framework/catalina/src"/>
+	<classpathentry kind="src" path="framework/common/src"/>
+	<classpathentry kind="src" path="framework/datafile/src"/>
+	<classpathentry kind="src" path="framework/entity/src"/>
+	<classpathentry kind="src" path="framework/entityext/src"/>
+	<classpathentry kind="src" path="framework/geronimo/src"/>
+	<classpathentry kind="src" path="framework/minilang/src"/>
+	<classpathentry kind="src" path="framework/security/src"/>
+	<classpathentry kind="src" path="framework/service/src"/>
+	<classpathentry kind="src" path="framework/sql/src"/>
+	<classpathentry kind="src" path="framework/sql/build/gen-src/javacc"/>
+	<classpathentry kind="src" path="framework/start/src"/>
+	<classpathentry kind="src" path="framework/testtools/src"/>
+	<classpathentry excluding="org/ofbiz/webapp/ftl/FreeMarkerViewRenderer.java|org/ofbiz/webapp/ftl/JpCacheIncludeTransform.java|org/ofbiz/webapp/view/FopPdfViewHandler.java|org/ofbiz/webapp/view/GenericViewRenderer.java|org/ofbiz/webapp/view/JPublishViewHandler.java|org/ofbiz/webapp/view/JPublishWrapper.java|org/ofbiz/webapp/view/JasperReportsPdfViewHandler.java|org/ofbiz/webapp/view/JasperReportsXmlViewHandler.java|org/ofbiz/webapp/view/JasperReportsJXlsViewHandler.java|org/ofbiz/webapp/view/JasperReportsPoiXlsViewHandler.java" kind="src" path="framework/webapp/src"/>
+	
 	<classpathentry kind="lib" path="framework/base/lib/ant-1.9.0-ant.jar"/>
 	<classpathentry kind="lib" path="framework/base/lib/ant-1.9.0-ant-junit.jar"/>
 	<classpathentry kind="lib" path="framework/base/lib/ant-1.9.0-ant-launcher.jar"/>
@@ -119,27 +141,6 @@
 	<classpathentry kind="lib" path="framework/webapp/lib/json-lib-2.2.3-jdk15.jar"/>
 	<classpathentry kind="lib" path="framework/webapp/lib/rome-0.9.jar"/>
 	<classpathentry kind="lib" path="framework/webapp/lib/velocity-1.6.1.jar"/>
-	<classpathentry kind="src" path="framework/base/build/gen-src/javacc"/>
-	<classpathentry excluding="org/ofbiz/base/config/CoberturaInstrumenter.java" kind="src" path="framework/base/src"/>
-	<classpathentry kind="src" path="framework/catalina/src"/>
-	<classpathentry kind="src" path="framework/common/src"/>
-	<classpathentry kind="src" path="framework/datafile/src"/>
-	<classpathentry kind="src" path="framework/entity/src"/>
-	<classpathentry kind="src" path="framework/entityext/src"/>
-	<classpathentry kind="src" path="framework/geronimo/src"/>
-	<classpathentry kind="src" path="framework/minilang/src"/>
-	<classpathentry kind="src" path="framework/security/src"/>
-	<classpathentry kind="src" path="framework/service/src"/>
-	<classpathentry kind="src" path="framework/sql/src"/>
-	<classpathentry kind="src" path="framework/sql/build/gen-src/javacc"/>
-	<classpathentry kind="src" path="framework/start/src"/>
-	<classpathentry kind="src" path="framework/testtools/src"/>
-	<classpathentry excluding="org/ofbiz/webapp/ftl/FreeMarkerViewRenderer.java|org/ofbiz/webapp/ftl/JpCacheIncludeTransform.java|org/ofbiz/webapp/view/FopPdfViewHandler.java|org/ofbiz/webapp/view/GenericViewRenderer.java|org/ofbiz/webapp/view/JPublishViewHandler.java|org/ofbiz/webapp/view/JPublishWrapper.java|org/ofbiz/webapp/view/JasperReportsPdfViewHandler.java|org/ofbiz/webapp/view/JasperReportsXmlViewHandler.java|org/ofbiz/webapp/view/JasperReportsJXlsViewHandler.java|org/ofbiz/webapp/view/JasperReportsPoiXlsViewHandler.java" kind="src" path="framework/webapp/src"/>
-	<classpathentry kind="src" path="framework/webtools/src"/>
-	<classpathentry kind="src" path="framework/widget/src"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
-	<classpathentry kind="lib" path="framework/base/cert"/>
-	<classpathentry kind="lib" path="framework/base/config"/>
-	<classpathentry kind="lib" path="framework/base/dtd"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

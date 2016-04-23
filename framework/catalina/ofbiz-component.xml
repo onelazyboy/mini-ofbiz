@@ -126,7 +126,7 @@ under the License.
             <property name="maxSpareThreads" value="50"/>
             <property name="maxThreads" value="100"/>
             <property name="minSpareThreads" value="4"/>
-            <property name="port" value="8080"/>
+            <property name="port" value="80"/>
             <property name="restrictedUserAgents" value=""/>
             <property name="server" value=""/>
             <property name="socketBuffer" value="9000"/>
