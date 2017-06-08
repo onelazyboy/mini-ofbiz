@@ -215,6 +215,12 @@ public class ModelService extends AbstractMap<String, Object> implements Seriali
 
     public ModelService(ModelService model) {
         this.name = model.name;
+        this.semaphore = model.semaphore;
+        this.fromLoader = model.fromLoader;
+        this.debug = model.debug;
+        this.semaphoreWait = model.semaphoreWait;
+        this.semaphoreSleep = model.semaphoreSleep;
+        this.contextInfo = model.contextInfo;
         this.definitionLocation = model.definitionLocation;
         this.description = model.description;
         this.engineName = model.engineName;
@@ -1184,6 +1190,9 @@ public class ModelService extends AbstractMap<String, Object> implements Seriali
                         }
                         if (overrideParam.overrideOptional) {
                             existingParam.optional = overrideParam.optional;
+                        }
+                        if (UtilValidate.isNotEmpty(overrideParam.allowHtml)) {
+                            existingParam.allowHtml = overrideParam.allowHtml;
                         }
                         addParam(existingParam);
                     } else {
